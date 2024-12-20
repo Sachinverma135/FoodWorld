@@ -1,0 +1,91 @@
+ 
+
+ .body{
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+ }
+ .img-reponsive{
+   max-width: 100%;
+ 
+}
+ .header_image{
+    background-image: url(foodwall.jpg); 
+    -webkit-backgrount-size:cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+ }
+ .content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ .content h1{
+    font-size:3rem;
+    text-align: center;
+    
+ }
+ .food_sec .food_find{
+   display: block;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 2rem;
+   padding: .6rem;
+   border: none;
+   
+ }
+ .food_sec{
+   text-align: center;
+ }
+ .food_sec button{
+   width: 40%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   background-color: rgb(115, 169, 216);
+   color: white;
+   border: none;
+   padding: .3rem;
+   border-radius: .5rem;
+   margin-top: 23px;
+ }
+ .Food_info{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+ 
+ .Food_info{
+   width: 90%;
+   margin-top: .3rem;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .info1{
+   
+   float: left;
+   width: 32%;
+   margin-left: .5rem;
+ }
+ .Food_info img{
+  width: 400px;
+  height:300px;
+  display: flex;
+ }
+  
+ .info1:first-of-type {
+	margin-left: 0;
+}
+ @media screen and (max-width:700px) {
+   .Food_info{
+      width: 100%;
+      float: none;
+   }
+   
+ }
